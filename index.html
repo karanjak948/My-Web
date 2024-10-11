@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, php">
+    <meta name="author" content="Kelvin Karanja">
+    <title>Algo Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="php" href="index.php">
+</head>
+<body>
+    <div class="mycontainer">
+        <nav>
+            <img src="images/Screenshot 2024-05-09 142230.png" height="80px" width="80px" class="logo" alt="ideas">    
+                <ul id="sidemenu">
+                    <i class="glyphicon glyphicon-cloud" style="font-size:48px;color:blue;margin:auto"></i>
+                    <li><a href="#" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Me</a></li>
+                    <li><a href="#" onclick="showPage('services')">Services Offered</a></li>
+                </ul>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" aria-hidden="true"></i>
+        </nav>
+    </div>
+        
+    <br>
+
+
+
+    <div main id="home" class="page">
+        <h2 style="color:#f0f; 
+        font-size:5vw; margin:0%; text-decoration:underline;
+        text-shadow:1px 1px 2px blue, 0 0 25px red, 0 0 5px darkblue;">Welcome to Kevoh Online Cyber</h2>
+        <div class="header-text">
+            <p style="color:#b58">Online Services and Design expert</p>
+            <h1>Hello, I'm<span style="color:red;font-weight:bold;font-family:'Times New Roman', Times, serif"> <strong>Kevoh</strong> </span><br>How can I help you today?</h1>
+          </div>
+        <div style="text-align: center";>
+            <h3 class="underline"style="color: dodgerblue;font-size:3vw;">Little About Kevoh Online Cyber</h3>
+            <div>
+                Kevoh Online Cyber is more than just a service provider; it's a culmination of years of dedication and expertise in the cyber world. With a passion for technology and a keen eye for detail, Kevoh brings forth a wealth of experience in cyber-related endeavors. Through meticulous attention to clients' needs and a commitment to excellence, Kevoh offers a range of services aimed at providing cutting-edge solutions in the digital realm. From cybersecurity to digital consulting, Kevoh Online Cyber stands as a beacon of reliability and innovation, ensuring that clients receive nothing short of the best in online services.
+            </div>
+           
+        </div>
+        <a href="#" onclick="showPage('services')" class="button" style="color: blue;">Services Offered</a>
+        
+       <!-- <form id="contactForm" action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        -->
+        <!-- Placeholder for images -->
+        <div class="image-gallery">
+            <img src="images/images.jpg" alt="Service Image">
+            <img src="images/istockphoto-1350595566-612x612.jpg" alt="Service Image">
+            <img src="images/cyber.jpg" alt="Service Image">
+        </div>
+    </div>
+
+
+
+
+    <div main id="about" class="page">
+        <hr color="green">
+        <h1 style="margin: 0%;color:red" class="underline">About Me</h1>
+        <div id="overflowTest">
+            Kevoh, a passionate individual deeply entrenched in the cyber realm, brings a wealth of experience and expertise to the table. With a background in cybersecurity, Kevoh stands as a guardian of digital fortresses, safeguarding against modern-day threats and ensuring the integrity of online spaces. Beyond cybersecurity, Kevoh delves into the creative realm, wielding design and coding skills to craft captivating digital experiences. From web design to software development, Kevoh's diverse skill set enables the creation of bespoke solutions tailored to meet clients' unique needs. With an unwavering commitment to excellence and a drive for innovation, Kevoh strives to push the boundaries of possibility in the ever-evolving digital landscape.
+        </div>
+        <h1 style="color: blue;" class="underline"> MY WORK</h1>
+        <div class="images-gallery">
+            <div>
+                <img src="about/WhatsApp Image 2024-05-09 at 15.11.13_cc4883d4.jpg">
+                <h2 style="color: purple;margin:0%" class="underline">KRA Returns</h2>
+            <p style="font-family: timmes new roman;margin:0%">KRA Return deadline is 30<sup>th</sup> June. <br>Once June is over a person who has <br>not filed ia entitled to a penalty of <br>2,0000 Kshs.Filing usully cost <br>200 kshs</p>
+            <a href="https://itax.kra.go.ke/KRA-Portal/" target="_blank">kra itax</a>
+            </div>
+            
+            <img src="about/WhatsApp Image 2024-05-09 at 15.11.13_74113098.jpg">
+            <img src="about/WhatsApp Image 2024-05-09 at 15.11.14_230086cf.jpg">
+            <img src="about/WhatsApp Image 2024-05-09 at 15.11.14_cb829e0d.jpg">
+            <img src="about/WhatsApp Image 2024-05-09 at 15.11.14_d97cd8f2.jpg">
+        </div>
+    </div>
+
+
+
+
+<div id="services" class="page">
+    <h2 style="font-size: 3vw;color:#f0f; text-decoration:underline;text-align:center;">My Services Include</h2>
+    <div class="container">
+        
+
+        <div class id="service1">
+            <ul style="color:white;text-align:left">
+                <li><a href="https://itax.kra.go.ke/KRA-Portal/" target="_blank">K.R.A services</a>
+                    <ul style="list-style-type: square;color:white;">
+                        <li>Pin Registration</li>
+                        <li>Nill Returns</li>
+                        <li>Tax Compliance</li>
+                        <li>p9 Returns</li>
+                    </ul>
+                        <a href="https://itax.kra.go.ke/KRA-Portal/" target="_blank">
+                            <img src="images/itax.png"  height="100px" width="150px" alt="K.R.A Services">
+                        </a><br><br>
+                        <a href="#" onclick="showPage('contact')">Contact Me</a>
+                </li>
+            </ul>
+        </div><br>
+        
+        <div class id="service2">
+            <ul style="text-align:left;">
+                <li><a href="https://accounts.ecitizen.go.ke/" target="_blank">E-Citizen Services</a>
+                    <ul style="list-style-type: square;color:white;">
+                        <li>DL Application</li>
+                        <li>DL Renewal</li>
+                        <li>Good Conduct</li>
+                        <li>Car Transfers</li>
+                    </ul>
+                        <a href="https://accounts.ecitizen.go.ke/" target="_blank">
+                            <img src="images/How-to-Register-an-eCitizen-Account-jpg.webp"  height="100px" width="150px" alt="E-Citizen Services">
+                        </a><br><br>
+                        <a href="#" onclick="showPage('contact')">Contact Me</a>
+                </li>
+            </ul>
+        </div><br>
+
+        <div class id="service3">
+            <ul style="text-align:left;">
+                <li>Other Services
+                    <ul style="list-style-type: square;color:white;">
+                        <li>NSSF</li>
+                    <a href="https://www.nssf.or.ke/" target="_blank">
+                        <img src="images/NSSF.jpeg" height="100px" width="150px" alt="NSSF">
+                    </a><br>
+                        <Li>NHIF</Li>
+                    <a href="https://www.nhif.or.ke/" target="_blank">
+                            <img src="images/NHIF.png" height="100px" width="150px" alt="NHIF">
+                    </a>
+                    </ul>
+                </li>
+            </ul>
+        </div><br>
+        
+
+        <div class id="service4">
+            <ul style="text-align:left;">
+                <li>Other Services
+                    <ul style="list-style-type: square;color:white;">
+                        <li>Type Writing</li>
+                        <li>Design & Publications</li>
+                        <img src="About/WhatsApp Image 2024-05-09 at 15.11.14_d97cd8f2.jpg"height="180px" width="150px" alt="Design">
+                    </ul>
+                </li>
+            </ul>
+        </div><br>
+
+
+        <div class id="service5">
+            <ul style="text-align:left;">
+                <li>Other Services
+                    <ul style="list-style-type: square;color:white;">
+                        <li>Passport Apllication</li>
+                        <img src="images/passport.jpg" height="100px" width="150px" alt="Passport">
+                        <li>Visa Application</li>
+                        <img src="images/visa.jpg" height="100px" width="150px" alt="VISA">
+                    </ul>
+                </li>
+            </ul>
+        </div><br>
+    </div>        
+
+        <br>
+        <table style="font-family:'Times New Roman', Times, serif">
+            <caption style="color: rgb(0, 255, 221); text-align:center">Services and Prices
+                <tr style="color: #f0f;">
+                    <th>Service</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>KRA Registration</td>
+                    <td>Kshs.200</td>
+                </tr>
+                <tr>
+                    <td>Passport Application</td>
+                    <td>Kshs.7500 (Ordinary)</td>
+                </tr>
+                <tr>
+                    <td>Visa Application</td>
+                    <td>Kshs.1000</td>
+                </tr>
+                <tr>
+                    <td>NSSF Registration</td>
+                    <td>Kshs.200</td>
+                </tr>
+                <tr>
+                    <td>NHIF Registration</td>
+                    <td>Kshs.200</td>
+                </tr>
+                <tr>
+                    <td>DL Application</td>
+                    <td>Kshs3500</td>
+                </tr>
+                <tr>
+                    <td>Good Conduct Application</td>
+                    <td>Kshs.1250</td>
+                </tr>
+                <tr>
+                    <td>Car Transfer</td>
+                    <td>Charged according to type of Car</td>
+                </tr>
+                <tr>
+                    <td>Nill Returns</td>
+                    <td>Kshs.200</td>
+                </tr>
+                <tr>
+                    <td>p9 Returns</td>
+                    <td>Kshs.300</td>
+                </tr>
+                <tr>
+                    <td>Tax Compliance</td>
+                    <td>Kshs.200</td>
+                </tr>
+                <tr>
+                    <td>Type Writing</td>
+                    <td>Kshs.50 per page</td>
+                </tr>
+                <tr>
+                    <td>Design & Publications</td>
+                    <td>According to publication</td>
+                </tr>
+                <tr>
+                    <td>E-Citizen Services</td>
+                    <td>According to services</td>
+                </tr>
+            </caption>
+        </table>
+</div>
+
+    <script src="script.js"></script>
+
+<footer class="footer">
+    <div class="contact">
+        <a href="mailto:kevohanasa17@gmail.com" target="_blank">
+            <img src="images/google.png" alt="Email Logo">
+            <span>My Email</span>
+        </a>
+    </div>
+    <div class="contact">
+        <a href="https://wa.me/+254769150421" target="_blank">
+            <img src="images/whatsapp.jpg" alt="WhatsApp Logo">
+            <span>My WhatsApp</span>
+        </a>
+    </div>
+    <div class="contact">
+        <a href="tel:+254769150421" target="_blank">
+            <img src="images/phone.jpg" alt="Phone Logo">
+            <span>My Phone</span>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

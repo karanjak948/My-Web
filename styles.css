@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: black;
+    color: rgb(243, 214, 214) !important;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url(images/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9120.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    flex: 1;
+}
+.header-text {
+    margin-top: 20%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.header-text {
+    margin-top: 1%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.image-gallery{
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+nav ul li :hover{
+    
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ #overflowTest {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px solid #ccc;
+ }
+ 
+.contact:hover {
+    transform: scale(1.3);
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact img {
+    width: 40px;
+    height: auto;
+}
+
+.contact span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.page {
+    display: none;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-gallery img {
+    max-width: 300px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.images-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.images-gallery img {
+    max-width: 300px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.images-gallery img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+a:link{
+    color:green;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:visited{
+    color: white;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    color:red;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:active{
+    color:white;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+table,td, th {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 3px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+th {
+    background-color: black;
+}
+
+tr:hover{
+    background-color: rgb(156, 80, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Optional: adjust spacing between divs */
+    flex-wrap: wrap;
+    gap: 10px; /* Optional: add space between divs */
+    justify-items: center; /* Center items horizontally */
+}
+.container > div {
+    padding: 10px;
+    background-color: rgb(81, 88, 90); /* Optional: for visual separation */
+    text-align: center; /* Center content within each div */
+}
+
+.container img {
+    max-width: 100%; /* Ensure image scales responsively */
+    max-height: 100%; /* Ensure image scales within container */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: blue;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(156, 80, 255);
+}
